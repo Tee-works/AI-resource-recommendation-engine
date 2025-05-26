@@ -172,40 +172,42 @@ The system processes synthetic data representing:
 * Ensures practical constraints are met while maximizing team quality
 
 ### Project Structure 
-float-resource-recommendation-engine/
-├── data/                      # Data storage
-│   ├── raw/                   # Raw data
-│   └── processed/             # Processed data
-├── docs/                      # Documentation
-│   └── images/                # Documentation images
-├── frontend/                  # Frontend application
-│   └── float-dashboard/       # Dashboard interface
-├── models/                    # Saved model artifacts
-├── notebooks/                 # Jupyter notebooks
-│   ├── 01_data_exploration.ipynb      # Data analysis
-│   ├── 02_model_development.ipynb     # Model development
-│   └── 03_evaluation.ipynb            # Model evaluation
-├── src/                       # Source code
-│   ├── data/                  # Data processing modules
-│   │   ├── data_generator.py  # Synthetic data generation
-│   │   └── data_processor.py  # Data preprocessing
-│   ├── models/                # ML model implementations
-│   │   ├── collaborative_filtering.py  # Collaborative model
-│   │   ├── content_based_filtering.py  # Content-based model
-│   │   ├── constraint_optimizer.py     # Constraint optimizer
-│   │   └── recommendation_model.py     # Combined engine
-│   ├── api/                   # API implementation
-│   │   └── main.py            # FastAPI application
-│   ├── utils/                 # Utility functions
-│   │   └── evaluation.py      # Model evaluation
-│   └── visualization/         # Visualization tools
-│       └── visualize.py       # Plotting functions
-├── scripts/                   # Utility scripts
-│   ├── generate_data.py       # Data generation script
-│   ├── train_model.py         # Model training script
-│   └── run_api.py             # API server script
-├── requirements.txt           # Project dependencies
-└── README.md                  # Project documentation
+* 
+   ```bash
+      ai-resource-recommendation-engine/
+      ├── data/                      # Data storage
+      │   ├── raw/                   # Raw data
+      │   └── processed/             # Processed data
+      ├── docs/                      # Documentation
+      │   └── images/                # Documentation images
+      ├── frontend/                  # Frontend application
+      │   └── float-dashboard/       # Dashboard interface
+      ├── models/                    # Saved model artifacts
+      ├── notebooks/                 # Jupyter notebooks
+      │   ├── 01_data_exploration.ipynb      # Data analysis
+      │   ├── 02_model_development.ipynb     # Model development
+      │   └── 03_evaluation.ipynb            # Model evaluation
+      ├── src/                       # Source code
+      │   ├── data/                  # Data processing modules
+      │   │   ├── data_generator.py  # Synthetic data generation
+      │   │   └── data_processor.py  # Data preprocessing
+      │   ├── models/                # ML model implementations
+      │   │   ├── collaborative_filtering.py  # Collaborative model
+      │   │   ├── content_based_filtering.py  # Content-based model
+      │   │   ├── constraint_optimizer.py     # Constraint optimizer
+      │   │   └── recommendation_model.py     # Combined engine
+      │   ├── api/                   # API implementation
+      │   │   └── main.py            # FastAPI application
+      │   ├── utils/                 # Utility functions
+      │   │   └── evaluation.py      # Model evaluation
+      │   └── visualization/         # Visualization tools
+      │       └── visualize.py       # Plotting functions
+      ├── scripts/                   # Utility scripts
+      │   ├── generate_data.py       # Data generation script
+      │   ├── train_model.py         # Model training script
+      │   └── run_api.py             # API server script
+      ├── requirements.txt           # Project dependencies
+      └── README.md                  # Project documentation
 
 ### Business Value
 This system demonstrates capabilities that modern resource management platforms need:
