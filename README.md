@@ -1,8 +1,8 @@
 # AI Resource Recommendation Engine
 
 ## Project Overview
-This project demonstrates an AI-powered resource recommendation system for Float, designed to help professional services teams make smarter resourcing decisions by learning from past project success patterns.
-The Resource Recommendation Engine helps professional service teams make smarter resourcing decisions by learning from historical project data and recommending ideal team compositions for new projects. This aligns with Float's mission to provide intelligent resource management for professional services teams.
+This project demonstrates an AI-powered resource recommendation system, designed to help professional services teams make smarter resourcing decisions by learning from past project success patterns.
+The Resource Recommendation Engine helps professional service teams make smarter resourcing decisions by learning from historical project data and recommending ideal team compositions for new projects. This aligns with the mission to provide intelligent resource management for professional services teams.
 
 ![Project Overview](docs/images/frontend-results.png)
 
