@@ -115,7 +115,7 @@ The frontend provides an intuitive interface for:
    pip install -r requirements.txt
 
 ### Model Training
-Train the recommendation models:
+1. Train the recommendation models:
    ```bash
    python scripts/train_model.py
 
