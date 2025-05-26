@@ -1,0 +1,52 @@
+# Add standard Python gitignore content
+cat > .gitignore << EOF
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Data files that might be large
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+
+# Logs
+logs/
+*.log
+EOF
+
+# Add .gitkeep files to keep empty directories
+touch data/raw/.gitkeep
+touch data/processed/.gitkeep

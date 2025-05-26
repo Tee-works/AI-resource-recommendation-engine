@@ -1,0 +1,12 @@
+pandas==2.0.0
+numpy==1.24.3
+scikit-learn==1.2.2
+matplotlib==3.7.1
+seaborn==0.12.2
+fastapi==0.97.0
+uvicorn==0.22.0
+pytest==7.3.1
+jupyter==1.0.0
+notebook==6.5.4
+pydantic==1.10.9
+pulp==2.7.0

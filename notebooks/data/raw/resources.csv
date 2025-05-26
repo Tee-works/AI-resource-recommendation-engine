@@ -1,0 +1,31 @@
+id,name,email,role,department,experience_level,hourly_rate,capacity,join_date
+r1,Resource 1,resource1@example.com,Project Manager,Management,Senior,111,40,2021-09-24
+r2,Resource 2,resource2@example.com,QA Engineer,QA,Mid,69,40,2022-01-01
+r3,Resource 3,resource3@example.com,Project Manager,Management,Mid,87,40,2021-10-04
+r4,Resource 4,resource4@example.com,Developer,Engineering,Junior,52,40,2021-12-22
+r5,Resource 5,resource5@example.com,Designer,Design,Junior,51,40,2021-06-19
+r6,Resource 6,resource6@example.com,DevOps Engineer,Operations,Mid,77,40,2021-08-04
+r7,Resource 7,resource7@example.com,QA Engineer,QA,Senior,82,40,2021-10-22
+r8,Resource 8,resource8@example.com,QA Engineer,QA,Junior,53,40,2021-06-02
+r9,Resource 9,resource9@example.com,QA Engineer,QA,Senior,95,40,2021-10-07
+r10,Resource 10,resource10@example.com,DevOps Engineer,Operations,Mid,80,40,2021-08-12
+r11,Resource 11,resource11@example.com,QA Engineer,QA,Mid,67,40,2021-12-14
+r12,Resource 12,resource12@example.com,QA Engineer,QA,Mid,75,40,2021-11-15
+r13,Resource 13,resource13@example.com,DevOps Engineer,Operations,Mid,86,40,2021-12-06
+r14,Resource 14,resource14@example.com,Developer,Engineering,Senior,102,40,2021-08-25
+r15,Resource 15,resource15@example.com,Designer,Design,Mid,73,40,2021-04-19
+r16,Resource 16,resource16@example.com,QA Engineer,QA,Mid,73,40,2021-07-14
+r17,Resource 17,resource17@example.com,Project Manager,Management,Mid,96,40,2021-08-29
+r18,Resource 18,resource18@example.com,Developer,Engineering,Junior,61,40,2021-06-29
+r19,Resource 19,resource19@example.com,Designer,Design,Senior,88,40,2021-01-16
+r20,Resource 20,resource20@example.com,Designer,Design,Junior,53,40,2021-05-03
+r21,Resource 21,resource21@example.com,Designer,Design,Senior,89,40,2021-04-22
+r22,Resource 22,resource22@example.com,QA Engineer,QA,Mid,65,40,2021-11-07
+r23,Resource 23,resource23@example.com,Developer,Engineering,Mid,73,40,2021-01-14
+r24,Resource 24,resource24@example.com,Project Manager,Management,Senior,126,40,2021-07-12
+r25,Resource 25,resource25@example.com,QA Engineer,QA,Junior,49,40,2021-11-18
+r26,Resource 26,resource26@example.com,Designer,Design,Senior,102,40,2021-12-17
+r27,Resource 27,resource27@example.com,DevOps Engineer,Operations,Senior,116,40,2021-06-27
+r28,Resource 28,resource28@example.com,DevOps Engineer,Operations,Senior,107,40,2021-09-17
+r29,Resource 29,resource29@example.com,Project Manager,Management,Mid,95,40,2021-02-24
+r30,Resource 30,resource30@example.com,QA Engineer,QA,Senior,98,40,2021-08-24

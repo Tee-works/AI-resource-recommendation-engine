@@ -1,0 +1,176 @@
+resource_id,skill_name,proficiency_level
+r1,Testing,4
+r1,Node.js,5
+r1,JavaScript,5
+r1,React,4
+r1,Database,4
+r1,DevOps,3
+r1,Cloud Services,3
+r2,Cloud Services,3
+r2,Agile,2
+r2,React,3
+r2,Database,3
+r2,Node.js,2
+r2,Project Management,3
+r3,UI Design,4
+r3,JavaScript,2
+r3,React,4
+r3,Cloud Services,2
+r3,Security,2
+r4,Database,3
+r4,JavaScript,2
+r5,Mobile Development,1
+r5,UI Design,2
+r5,UX Research,3
+r5,JavaScript,1
+r6,Project Management,3
+r6,Agile,3
+r6,Mobile Development,4
+r6,UI Design,3
+r6,UX Research,3
+r6,Data Analysis,3
+r7,JavaScript,5
+r7,UX Research,4
+r7,Python,4
+r7,Data Analysis,5
+r7,DevOps,5
+r7,Security,5
+r7,Database,5
+r7,Node.js,4
+r8,Testing,1
+r8,Python,2
+r9,UI Design,5
+r9,Testing,4
+r9,Mobile Development,3
+r9,DevOps,3
+r9,Database,5
+r9,Security,4
+r10,Security,3
+r10,DevOps,2
+r10,JavaScript,4
+r10,Project Management,4
+r10,Cloud Services,4
+r10,React,2
+r10,UX Research,2
+r11,Python,4
+r11,JavaScript,4
+r11,Database,4
+r11,DevOps,2
+r11,Project Management,4
+r12,Mobile Development,4
+r12,React,4
+r12,Project Management,2
+r12,UI Design,2
+r12,Database,4
+r12,Node.js,2
+r12,Testing,3
+r13,DevOps,3
+r13,Python,4
+r13,Security,4
+r13,Cloud Services,3
+r14,Testing,4
+r14,Database,3
+r14,Security,5
+r14,UX Research,3
+r14,JavaScript,5
+r14,Node.js,3
+r14,Cloud Services,4
+r14,Agile,3
+r15,JavaScript,3
+r15,Node.js,3
+r15,Cloud Services,2
+r15,Security,3
+r16,DevOps,2
+r16,Database,3
+r16,Agile,4
+r16,Cloud Services,3
+r16,Python,4
+r16,React,3
+r17,Security,2
+r17,Database,4
+r17,React,3
+r17,Mobile Development,4
+r18,Node.js,3
+r18,Database,2
+r19,Data Analysis,4
+r19,Security,5
+r19,DevOps,3
+r19,UX Research,3
+r19,Mobile Development,4
+r19,Project Management,4
+r19,Agile,5
+r19,Node.js,4
+r20,React,1
+r20,UI Design,2
+r20,UX Research,2
+r21,Security,3
+r21,Testing,5
+r21,UI Design,4
+r21,Data Analysis,5
+r21,Database,4
+r21,DevOps,5
+r21,Agile,4
+r21,Mobile Development,3
+r22,Database,2
+r22,UI Design,2
+r22,Agile,4
+r22,Data Analysis,4
+r22,Cloud Services,2
+r23,Database,3
+r23,Node.js,2
+r23,Python,4
+r23,Mobile Development,2
+r23,React,3
+r24,UX Research,4
+r24,Security,3
+r24,DevOps,5
+r24,Mobile Development,5
+r24,Python,5
+r24,Cloud Services,3
+r24,Testing,3
+r24,Data Analysis,4
+r25,Python,3
+r25,Testing,2
+r25,Security,3
+r26,DevOps,3
+r26,Testing,5
+r26,Database,3
+r26,Project Management,5
+r26,Cloud Services,4
+r26,Security,3
+r26,Node.js,4
+r26,Agile,3
+r26,Python,4
+r26,React,5
+r27,UX Research,5
+r27,React,4
+r27,Data Analysis,3
+r27,Mobile Development,4
+r27,Security,3
+r27,Project Management,5
+r27,DevOps,4
+r27,Node.js,3
+r27,JavaScript,5
+r28,Security,5
+r28,Cloud Services,3
+r28,Project Management,4
+r28,JavaScript,5
+r28,UI Design,5
+r28,Testing,4
+r28,UX Research,4
+r29,React,4
+r29,Agile,2
+r29,Python,3
+r29,Node.js,2
+r29,Cloud Services,4
+r29,JavaScript,4
+r29,Mobile Development,2
+r30,Database,3
+r30,Testing,3
+r30,Mobile Development,5
+r30,UX Research,4
+r30,Cloud Services,5
+r30,UI Design,5
+r30,Data Analysis,3
+r30,DevOps,3
+r30,JavaScript,3
