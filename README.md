@@ -1,5 +1,10 @@
 # AI Resource Recommendation Engine
 
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.97.0-009688.svg)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2.2-F7931E.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 ## Project Overview
 This project demonstrates an AI-powered resource recommendation system, designed to help professional services teams make smarter resourcing decisions by learning from past project success patterns.
 The Resource Recommendation Engine helps professional service teams make smarter resourcing decisions by learning from historical project data and recommending ideal team compositions for new projects. This aligns with the mission to provide intelligent resource management for professional services teams.
@@ -36,7 +41,7 @@ The system is built with a modular architecture that allows for easy extension a
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
 - **Data Processing**: Pandas, NumPy
 - **Visualization**: Matplotlib, Seaborn
-- **API Documentation**: Swagger/OpenAP
+- **API Documentation**: Swagger/OpenAPI
 
 ## Technical Details
 
@@ -102,32 +107,38 @@ The frontend provides an intuitive interface for:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/float-resource-recommendation-engine.git
-   cd float-resource-recommendation-engine
+   git clone https://github.com/Tee-works/AI-resource-recommendation-engine.git
+   cd AI-resource-recommendation-engine
+   ```
 
 2. Create a virtual environment:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
 
 ### Model Training
 1. Train the recommendation models:
    ```bash
    python scripts/train_model.py
+   ```
 
 ### Running the Application
 1. Start the API server:
    ```bash
    python scripts/run_api.py
+   ```
 
 2. Start the frontend server:
    ```bash
    cd frontend/float-dashboard
    python server.py
+   ```
 
 3. Open your browser to http://localhost:3000 to use the application.
 
@@ -225,19 +236,30 @@ This system demonstrates capabilities that modern resource management platforms 
 * Feedback Loop: Learning from recommendation acceptance and project outcomes
 * Multi-tenant Support: Support for multiple organizations with isolated data
 
-### Development
-#### Running Tests
-`pytest tests/`
+## Development
 
 ### API Testing
-The API includes comprehensive documentation and testing interface at /docs when running locally.
+The API includes comprehensive Swagger documentation and interactive testing interface at `/docs` when running locally.
 
-### License
-This project is for portfolio demonstration purposes.
+### Data Generation
+To generate synthetic data for testing:
+```bash
+python scripts/generate_data.py
+```
 
-### Contact
-Iyanujesu Akinyefa
+## License
 
-Email: [iyanujesuakinyefa@gmail.com]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+**Iyanujesu Akinyefa**
+
+- Email: iyanujesuakinyefa@gmail.com
+- GitHub: [@Tee-works](https://github.com/Tee-works)
+
+---
+
+*This project is for portfolio demonstration purposes.*
 
 

@@ -1,5 +1,3 @@
-# Add standard Python gitignore content
-cat > .gitignore << EOF
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -9,44 +7,104 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-dist/
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
 
 # Virtual environments
 venv/
 env/
 ENV/
+env.bak/
+venv.bak/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
 
 # IDE files
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
 
 # OS specific files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+*.Zone.Identifier
 
-# Data files that might be large
-data/raw/*
-data/processed/*
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
 # Model files
-*.pkl
-*.h5
-*.joblib
+models/*.pkl
+models/*.h5
+models/*.joblib
+!models/.gitkeep
 
 # Logs
 logs/
 *.log
-EOF
 
-# Add .gitkeep files to keep empty directories
-touch data/raw/.gitkeep
-touch data/processed/.gitkeep
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Documentation builds
+docs/_build/
