@@ -8,18 +8,26 @@ __pycache__/
 venv/
 env/
 ENV/
+env.bak/
+venv.bak/
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# IDE files (common)
+# IDE files
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
 
 # OS specific files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 *.Zone.Identifier
 
